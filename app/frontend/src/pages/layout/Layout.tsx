@@ -27,7 +27,7 @@ const Layout = () => {
                             </li>
                             <li className={styles.headerNavLeftMargin}>
                                 <NavLink to="/content" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
-                                    Manage Content
+                                    Manejo de Contenido
                                 </NavLink>
                             </li>
                         </ul>
@@ -35,7 +35,7 @@ const Layout = () => {
                 </div>
             </header>
             <div className={styles.raibanner}>
-                <span className={styles.raiwarning}>AI-generated content may be incorrect</span>
+                <span className={styles.raiwarning}>Los contenidos generados por IA pueden ser incorrectos</span>
             </div>
 
             <Outlet />
